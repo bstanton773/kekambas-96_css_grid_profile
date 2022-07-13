@@ -57,6 +57,31 @@
 
 .posts { grid-area: posts; }
 
+.post-card{
+    border: 1px solid black;
+    padding: 1vh;
+}
+
+.card-title{
+    margin: 10px 0;
+}
+
+.card-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-links a:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: aqua;
+}
+
 /* .container > div {
     border: 2px solid black
 } */
