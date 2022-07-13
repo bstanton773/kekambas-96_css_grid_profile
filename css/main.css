@@ -57,6 +57,6 @@
 
 .posts { grid-area: posts; }
 
-.container > div {
+/* .container > div {
     border: 2px solid black
-}
+} */
