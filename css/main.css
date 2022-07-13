@@ -14,16 +14,29 @@
       "navbar navbar navbar navbar navbar navbar"
       ". prof-pic prof-info prof-info prof-info ."
       ". posts posts posts posts .";
-  }
+}
   
-  .navbar { grid-area: navbar; }
+.navbar { 
+    grid-area: navbar;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    align-items: center;
+    top: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
   
-  .prof-pic { grid-area: prof-pic; }
-  
-  .prof-info { grid-area: prof-info; }
-  
-  .posts { grid-area: posts; }
-  
-  .container > div {
+.prof-pic { grid-area: prof-pic; }
+
+.prof-info { grid-area: prof-info; }
+
+.posts { grid-area: posts; }
+
+.container > div {
     border: 2px solid black
   }
